@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
 }
 
 .App-logo {
@@ -36,3 +35,34 @@
     transform: rotate(360deg);
   }
 }
+ .searchBoxInput{
+  border-left: 0.5px solid #353030 !important;
+  border-style:none;
+ }
+
+ .searchBox{
+  border-radius: 30%;
+  display:flex;
+  align-items: center;
+  justify-items: center;
+  box-shadow: 2px 2px 2px 2px  #b7c1c9;
+  margin-left: 15%;
+  margin-right: 15%;
+ }
+ .iconSearch{
+  background-color: #FF385C;
+  border-radius: 60%;
+ }
+ 
+ .navSettings{
+  border-radius: 20%;
+  box-shadow: 2px 2px 2px 2px  #b7c1c9;
+padding-top: 10px;
+ }
+ .navBAR{
+  height: 100px;
+  display: inline-block;
+ }
+ .carousel{
+  color: #000000;
+ }
